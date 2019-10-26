@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:white;
+    
+}
+.add{
+    position:absolute;
+    top: 100px;
+    left:520px;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Lora', serif;
+    color:#f44336;
+}
+.part_0{
+    position:absolute;
+    top:15%;
+    left:15%;
+    height: 520px;
+    width: 405px;
+    background-color:#fff8e1;
+}
+.part_1{
+    position:absolute;
+    top:15%;
+    left:45%;
+    height: 520px;
+    width: 400px;
+    background-color:#fffde7;
+
+}
+.playername_0,
+.playername_1{
+    position: relative;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Lora', serif;
+    color:#f44336;
+}
+
+.score{
+    position: relative;
+    align-self: center;
+    left:160px;
+    height: 90px;
+    width: 70px;
+    background-color:#ffebee;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Vibes', cursive;
+    color: #26a69a;
+}
+.dice{
+    position: relative;
+    align-self: center;
+    top: 150px;
+    left:160px;
+    height: 90px;
+    width: 110px;
+    background-color:#ffccbc;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+    color:#00bfa5;
+}
+#rolldice{
+    position:absolute;
+    top: 450px;
+    left:520px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Lora', serif;
+    color:#f44336;
+    background-color: #f48fb1;
+}
+#hold{
+    position:absolute;
+    top: 510px;
+    left:530px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Lora', serif;
+   
+}
+.active{
+    background-color:#ff8a80; 
+
+}
+.active .playername {
+   color:black;
+}
+.winner{
+    color: blue;
+   ;
+}
+#scoreinput{
+    position: relative;
+    top:5px;
+    left:550px;
+    width :100px;
+    height:100px;
+    padding-bottom: 0px;
+    outline-style: none;
+    font-size: 16px;
+
+}

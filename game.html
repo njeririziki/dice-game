@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game</title>
+    <link rel="stylesheet" href='./game.css'>
+    <link 
+    href="https://fonts.googleapis.com/css?family=Lora|Work+sans|Quicksand|Vibes&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" 
+    rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./materialize.min.css" 
+     media="screen,projection"/>
+</head>
+<body>
+    
+   <div class='add'>
+        <a class="btn-floating btn-large waves-effect waves-light #f48fb1">
+                <i class="material-icons">add</i></a>
+                 </div> 
+    <div class='part_0 ' id='player1 '>
+     <div class='playername_0' id='playertitle_0 '>Player <br> 1 </div>
+           
+     <div class='score' id='score_0'>score<br> 0 </div>
+     <div class='dice' id='dice_0'>current<br>0 </div>
+    </div>
+    <div class='part_1' id='player2'>
+        <div class='playername_1' id='playertitle_1'>Player <br> 2 </div>
+        <div class='score' id='score_1'>score<br> 0</div>
+        <div class='dice' id='dice_1'>current<br>0</div>
+    </div>
+
+    <div id='rolldice'>
+        <a class="waves-effect waves-light btn-large red">
+            <i class="material-icons left">replay</i>
+            roll dice </a> </div>
+    <div class="holdscore" id='hold'>
+            <a class="waves-effect waves-light btn-large red">
+            <i class="material-icons">store</i>
+        hold </a></div>
+   <input type='text' placeholder="Winning score" id='scoreinput'>
+   
+
+ <script src='./game.js'></script>   
+</body>
+</html>
